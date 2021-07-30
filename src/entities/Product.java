@@ -29,4 +29,11 @@ public class Product {
 	public void setPrice(Double price) {
 		this.price = price;
 	}
+	
+	public String priceTag() {
+		StringBuilder sb = new StringBuilder();
+		sb.append(this.name + " $ ");
+		sb.append(this.price);
+		return sb.toString();
+	}
 }
