@@ -5,9 +5,9 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
 
-import entities.Pessoa;
-import entities.PessoaFisica;
-import entities.PessoaJuridica;
+import model.entities.Pessoa;
+import model.entities.PessoaFisica;
+import model.entities.PessoaJuridica;
 
 public class ProgramPjPf {
 

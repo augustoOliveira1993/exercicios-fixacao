@@ -1,4 +1,4 @@
-package entities;
+package model.entities;
 
 public class PessoaFisica extends Pessoa{
 	
